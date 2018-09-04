@@ -10,6 +10,29 @@
 
 * 添加svgparser依赖
 
+  **步骤 1.**将JitPack存储库添加到构建文件中 
+
+  将其添加到存储库末尾的根build.gradle中： 
+
+  ```
+  	allprojects {
+  		repositories {
+  			...
+  			maven { url 'https://jitpack.io' }
+  		}
+  	}
+  ```
+
+  **步骤 2.** 添加依赖项 
+
+  ```
+  	dependencies {
+  	        implementation 'com.github.CNHubin:SvgParser:1.0.1'
+  	}
+  ```
+
+## 文档
+
 * 创建一个类继承Svg，自行扩展svg的功能
 
   ```
@@ -65,6 +88,6 @@
 
 ## 案例
 
-demo中提供了一个简单案例，自定义View绘制矢量图并且控制器拉伸和缩小
+demo中提供了一个简单案例，自定义View绘制矢量图并且控制其拉伸和缩小
 
 ![](demo.gif)
