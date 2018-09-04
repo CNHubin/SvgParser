@@ -10,7 +10,7 @@
 
 * 添加svgparser依赖
 
-  **步骤 1.**将JitPack存储库添加到构建文件中 
+  **步骤 1.** 将JitPack存储库添加到构建文件中
 
   将其添加到存储库末尾的根build.gradle中： 
 
